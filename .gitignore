@@ -10,6 +10,7 @@ build/
 .cxx
 local.properties
 .output/
+.java11_temp
 
 *.aar
 *.zip

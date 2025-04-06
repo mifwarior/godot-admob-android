@@ -23,6 +23,9 @@
         <meta-data
             android:name="org.godotengine.plugin.v1.PoingGodotAdMobRewardedInterstitialAd"
             android:value="com.poingstudios.godot.admob.ads.PoingGodotAdMobRewardedInterstitialAd" />
+        <meta-data
+            android:name="org.godotengine.plugin.v1.PoingGodotAdMobAppOpenAd"
+            android:value="com.poingstudios.godot.admob.ads.PoingGodotAdMobAppOpenAd" />
 
         <meta-data
             android:name="org.godotengine.plugin.v1.PoingGodotAdMobConsentInformation"
