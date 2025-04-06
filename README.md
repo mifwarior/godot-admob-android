@@ -1,4 +1,3 @@
-
 <h1 align="center">
   <br>
   <img src="https://i.imgur.com/fLsHNCO.png" alt="GodotAdMob" width=500>
@@ -44,7 +43,7 @@ The **purpose** of this plugin is to always keep **up to date with Godot**, supp
 
 - It's a wrapper for [Google Mobile Ads SDK](https://developers.google.com/admob/android/sdk). 🎁
 - Easy Configuration. 😀
-- Supports nearly all Ad Formats: **Banner**, **Interstitial**, **Rewarded**, **Rewarded Interstitial**. 📺
+- Supports nearly all Ad Formats: **Banner**, **Interstitial**, **Rewarded**, **Rewarded Interstitial**, **App Open Ads**. 📺
 - GDPR Compliance with UMP Support. ✉️
 - Targeting Capabilities. 🎯
 - Seamless integration with Mediation partners: **AdColony**, **Meta**, **Vungle**. 💰
@@ -64,6 +63,7 @@ The **purpose** of this plugin is to always keep **up to date with Godot**, supp
 
 ### 🧑‍💻Usage
 - Video tutorial: https://youtu.be/WpVGn7ZasKM.
+- For detailed installation instructions, see [INSTALL.md](INSTALL.md).
 - Enable Android Build Template. [Check the tutorial here](https://docs.godotengine.org/en/stable/tutorials/export/android_custom_build.html).
 - Inside `poing-godot-admob-android-v{{ your_godot_version }}.zip` you downloaded, you will face some folders like `'ads'`, `'adcolony'`, `'meta'`, `'vungle'`. To AdMob works only `'ads'` is required, but if you want [Mediation](https://support.google.com/admob/answer/13420272?hl=en), you need the other folders.
 - Move the content inside the folder which you need into ```res://android/plugins``` directory on your Godot project.
